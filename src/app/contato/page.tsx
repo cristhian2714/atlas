@@ -97,16 +97,7 @@ export default function Contato() {
                       <a href="tel:+5511999999999" className="text-white font-medium hover:underline">+55 (11) 99999-9999</a>
                     </div>
                   </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0">
-                      <MapPin size={20} className="text-white" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-gray-400 mb-1">Escritório Central</p>
-                      <p className="text-white font-medium">Av. Paulista, 1000 - Bela Vista<br />São Paulo - SP</p>
-                    </div>
-                  </div>
+
                 </div>
               </div>
             </div>

@@ -51,10 +51,7 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-6">Contato</h3>
             <ul className="space-y-4 text-sm text-gray-400">
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-white shrink-0 mt-0.5" />
-                <span>Av. Paulista, 1000 - Bela Vista<br />São Paulo - SP, 01310-100</span>
-              </li>
+
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-white shrink-0" />
                 <span>+55 (11) 99999-9999</span>
