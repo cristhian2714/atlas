@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 import { db } from "@/lib/firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
@@ -87,16 +87,7 @@ export default function Contato() {
                       <a href="mailto:atlasupi@gmail.com" className="text-white font-medium hover:underline">atlasupi@gmail.com</a>
                     </div>
                   </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0">
-                      <Phone size={20} className="text-white" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-gray-400 mb-1">Telefone / WhatsApp</p>
-                      <a href="tel:+5511999999999" className="text-white font-medium hover:underline">+55 (11) 99999-9999</a>
-                    </div>
-                  </div>
+
 
                 </div>
               </div>
