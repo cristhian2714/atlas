@@ -28,30 +28,6 @@ export default function Portfolio() {
       tech: ["Landing Page", "Design Responsivo"],
       image: "bg-gray-800",
       imgUrl: "/img/unlockfitacademia.png"
-    },
-    {
-      title: "Nexus Analytics",
-      category: "SaaS Platform",
-      tech: ["Vue.js", "Python", "AWS"],
-      image: "bg-gray-800"
-    },
-    {
-      title: "Studio Arquitetura",
-      category: "Site Institucional",
-      tech: ["HTML5", "CSS3", "GSAP"],
-      image: "bg-gray-900"
-    },
-    {
-      title: "HealthCare App",
-      category: "Aplicativo Web",
-      tech: ["React Native", "Firebase"],
-      image: "bg-gray-800"
-    },
-    {
-      title: "Portal de Notícias",
-      category: "Blog / Portal",
-      tech: ["Next.js", "Headless CMS"],
-      image: "bg-gray-900"
     }
   ];
 

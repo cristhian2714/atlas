@@ -57,29 +57,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Placeholder for Stats */}
-        <section className="py-20 border-t border-b border-white/10 bg-[#050505]">
-          <div className="container mx-auto px-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div>
-                <div className="text-4xl md:text-5xl font-black text-white mb-2">150+</div>
-                <div className="text-sm text-gray-500 uppercase tracking-widest font-medium">Projetos Entregues</div>
-              </div>
-              <div>
-                <div className="text-4xl md:text-5xl font-black text-white mb-2">98%</div>
-                <div className="text-sm text-gray-500 uppercase tracking-widest font-medium">Satisfação</div>
-              </div>
-              <div>
-                <div className="text-4xl md:text-5xl font-black text-white mb-2">5+</div>
-                <div className="text-sm text-gray-500 uppercase tracking-widest font-medium">Anos de Mercado</div>
-              </div>
-              <div>
-                <div className="text-4xl md:text-5xl font-black text-white mb-2">24/7</div>
-                <div className="text-sm text-gray-500 uppercase tracking-widest font-medium">Suporte Ativo</div>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
       <Footer />
     </main>
