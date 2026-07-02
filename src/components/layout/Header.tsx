@@ -25,7 +25,7 @@ export function Header() {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/img/logo.png" alt="Atlas Logo" className="h-24 object-contain" onError={(e) => {
+          <img src="/img/atlas-removebg-preview.png" alt="Atlas Logo" className="h-24 object-contain" onError={(e) => {
             e.currentTarget.style.display = 'none';
             e.currentTarget.parentElement?.insertAdjacentHTML('beforeend', '<span class="text-2xl font-bold tracking-widest text-white">ATLAS</span>');
           }} />

@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-6">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/logo.png" alt="Atlas Logo" className="h-24 object-contain" />
+              <img src="/img/atlas-removebg-preview.png" alt="Atlas Logo" className="h-24 object-contain" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Desenvolvemos soluções digitais de alta performance para empresas que buscam liderar o futuro através da tecnologia.
